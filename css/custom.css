@@ -1,0 +1,57 @@
+.customnav {
+    height: 80px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-link {
+    color: white;
+    padding: 10px;
+}
+
+.navbar-item a:hover {
+    color: gold;
+    text-decoration: none;
+    border-bottom: 2px solid #fdbe00;
+    font-weight: 400;
+}
+
+.product-container {
+    padding-top: 85px;
+}
+
+.row {
+    margin: 30px;
+}
+
+.title {
+    color: #fdbe00;
+}
+
+hr {
+    width: 330px;
+    border: 2px solid #fdbe00;
+    margin-top: 0px;
+}
+
+.product-category {
+    height: 250px;
+    background-color: grey;
+    margin: 10px;
+}
+
+.product-category:hover {
+    background-color: purple;
+}
+
+img {
+    height: 220px;
+}
+
+.product-description p {
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
