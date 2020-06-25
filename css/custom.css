@@ -37,21 +37,44 @@ hr {
 }
 
 .product-category {
-    height: 250px;
-    background-color: grey;
+    position: relative;
     margin: 10px;
 }
 
-.product-category:hover {
-    background-color: purple;
+.product-category img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-img {
-    height: 220px;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: dimgray;
 }
 
-.product-description p {
-    margin: 5px;
+.product-category:hover .overlay {
+    opacity: 1;
+}
+
+.product-description {
     color: white;
-    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    text-align: left;
+}
+
+.viewmorebtn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
 }
