@@ -1,7 +1,7 @@
 /* css changes for homepage */
 
 .homepage {
-    background-color: black;
+    background-image: url("../images/buddha1.png");
     color: white;
 }
 
@@ -24,7 +24,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Palatino Linotype', monospace;
 }
 
 .company-learnmorebtn {
@@ -73,11 +73,7 @@
 }
 
 .product-container {
-    padding-top: 85px;
-}
-
-.row {
-    margin: 30px;
+    padding-top: 120px;
 }
 
 .title {
