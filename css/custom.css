@@ -1,3 +1,40 @@
+/* css changes for homepage */
+
+.homepage {
+    background-color: black;
+    color: white;
+}
+
+.company-name {
+    margin-top: 50px;
+}
+
+.company-name p {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.company-tagline {
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.company-tagline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.company-learnmorebtn {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/* products category page */
+
 .customnav {
     height: 80px;
 }
@@ -36,18 +73,18 @@ hr {
     margin-top: 0px;
 }
 
-.product-category {
+.card {
     position: relative;
     margin: 10px;
 }
 
-.product-category img {
+.card-img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.overlay {
+.card-img-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -60,21 +97,9 @@ hr {
     background-color: dimgray;
 }
 
-.product-category:hover .overlay {
+.card:hover .card-img-overlay {
     opacity: 1;
 }
 
-.product-description {
-    color: white;
-    font-size: 14px;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    text-align: left;
-}
 
-.viewmorebtn {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-}
+/* featured products page  */
