@@ -125,7 +125,16 @@ hr {
     color: white;
 }
 
-.footer-featured-product {
+.footer-top-selling {
     height: 100px;
     width: 100px;
+}
+
+.footer-link a {
+    color: white;
+}
+
+.footer-link a:hover {
+    color: gold;
+    text-decoration: none;
 }
