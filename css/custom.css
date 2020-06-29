@@ -116,3 +116,16 @@ hr {
 
 
 /* featured products page  */
+
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer-featured-product {
+    height: 100px;
+    width: 100px;
+}
