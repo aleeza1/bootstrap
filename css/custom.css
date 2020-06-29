@@ -138,3 +138,8 @@ hr {
     color: gold;
     text-decoration: none;
 }
+
+.footer-copyright {
+    background-color: black;
+    color: white;
+}
