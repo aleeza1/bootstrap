@@ -1,145 +1,153 @@
-/* css changes for homepage */
-
-.homepage {
-    background-image: url("../images/buddha1.png");
-    color: white;
-}
-
-.company-name {
-    margin-top: 50px;
-}
-
-.company-name p {
-    text-align: center;
-    font-size: 70px;
-    font-weight: 900;
-}
-
-.company-tagline {
-    margin-top: 120px;
-    margin-bottom: 130px;
-}
-
-.company-tagline {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Palatino Linotype', monospace;
-}
-
-.company-learnmorebtn {
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-
-/* products category page */
-
-.navbar {
-    min-height: 80px;
-}
-
-.navbar-brand {
-    padding: 0 15px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 35px;
-}
-
-.navbar-toggle {
-    /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
-    padding: 9px 10px !important;
-}
-
-.navbar-link {
-    color: white;
-    padding: 0px 20px;
-}
-
-.navbar-item a:hover {
-    color: gold;
-    text-decoration: none;
-    border-bottom: 2px solid #fdbe00;
-}
-
-@media (min-width: 768px) {
-    .navbar-nav>li>a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
+    /* css changes for homepage */
+    
+    .homepage {
+        background-image: url("../images/buddha1.png");
+        color: white;
     }
-}
-
-.product-container {
-    padding-top: 120px;
-}
-
-.title {
-    color: #fdbe00;
-}
-
-hr {
-    width: 330px;
-    border: 2px solid #fdbe00;
-    margin-top: 0px;
-}
-
-.card {
-    position: relative;
-    margin: 10px;
-}
-
-.card-img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.card-img-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: dimgray;
-}
-
-.card:hover .card-img-overlay {
-    opacity: 1;
-}
-
-
-/* featured products page  */
-
-
-/* footer */
-
-.footer {
-    background-color: #333;
-    color: white;
-}
-
-.footer-top-selling {
-    height: 100px;
-    width: 100px;
-}
-
-.footer-link a {
-    color: white;
-}
-
-.footer-link a:hover {
-    color: gold;
-    text-decoration: none;
-}
-
-.footer-copyright {
-    background-color: black;
-    color: white;
-}
+    
+    .company-name {
+        margin-top: 50px;
+    }
+    
+    .company-name p {
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+    }
+    
+    .company-tagline {
+        margin-top: 120px;
+        margin-bottom: 130px;
+    }
+    
+    .company-tagline {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Palatino Linotype', monospace;
+    }
+    
+    .company-learnmorebtn {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    /* products category page */
+    
+    .navbar {
+        min-height: 80px;
+    }
+    
+    .navbar-brand {
+        padding: 0 15px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 35px;
+    }
+    
+    .navbar-toggle {
+        /* (80px - button height 34px) / 2 = 23px */
+        margin-top: 23px;
+        padding: 9px 10px !important;
+    }
+    
+    .navbar-link {
+        color: white;
+        padding: 0px 20px;
+    }
+    
+    .navbar-item a:hover {
+        color: gold;
+        text-decoration: none;
+        border-bottom: 2px solid #fdbe00;
+    }
+    
+    @media (min-width: 768px) {
+        .navbar-nav>li>a {
+            /* (80px - line-height of 27px) / 2 = 26.5px */
+            padding-top: 26.5px;
+            padding-bottom: 26.5px;
+            line-height: 27px;
+        }
+    }
+    
+    .product-container {
+        padding-top: 120px;
+    }
+    
+    .title {
+        color: #fdbe00;
+    }
+    
+    hr {
+        width: 330px;
+        border: 2px solid #fdbe00;
+        margin-top: 0px;
+    }
+    
+    .card {
+        position: relative;
+        margin: 10px;
+    }
+    
+    .card-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-img-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: dimgray;
+    }
+    
+    .card:hover .card-img-overlay {
+        opacity: 1;
+    }
+    /* featured products page  */
+    /* footer */
+    
+    .footer {
+        background-color: #333;
+        color: white;
+    }
+    
+    .footer-top-selling {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .footer-link a {
+        color: white;
+    }
+    
+    .footer-link a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+    
+    .footer-copyright {
+        background-color: black;
+        color: white;
+    }
+    /* about us */
+    
+    .welcome {
+        font-size: 30px;
+        border-bottom: 2px solid #fdbe00;
+    }
+    
+    .card-title {
+        color: #fdbe00;
+    }
+    
+    .card {
+        text-align: justify;
+    }
