@@ -141,13 +141,40 @@
     
     .welcome {
         font-size: 30px;
+    }
+    
+    .cusborder {
+        width: 10rem;
         border-bottom: 2px solid #fdbe00;
     }
     
     .card-title {
-        color: #fdbe00;
+        /* color: #fdbe00; */
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
     }
     
     .card {
         text-align: justify;
+    }
+    /* latest-products */
+    
+    body {
+        background-color: #fdbe00;
+    }
+    
+    .latest-products {
+        margin: 2rem;
+    }
+    
+    .card-img-top {
+        height: 15rem;
+    }
+    
+    .card-body {
+        padding: 0 1rem;
+    }
+    
+    .container-title {
+        font-weight: 700;
     }
